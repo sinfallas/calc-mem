@@ -1,5 +1,4 @@
 #!/bin/bash
-#elaborado por sinfallas
 if [[ $USER != root ]]; then
 echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
 exit 1
