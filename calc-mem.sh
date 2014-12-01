@@ -7,8 +7,8 @@ page_size=$(getconf PAGE_SIZE)
 phys_pages=$(getconf _PHYS_PAGES)
 shmall=`expr $phys_pages / 2`
 shmmax=`expr $shmall \* $page_size`
-echo kernel.shmmax = $shmmax >> /etc/sysctl.conf
-echo kernel.shmall = $shmall >> /etc/sysctl.conf
+echo kernel.shmmax = $shmmax > /etc/sysctl.d/calc-mem.conf
+echo kernel.shmall = $shmall >> /etc/sysctl.d/calc-mem.conf
 echo kernel.shmmax = $shmmax
 echo kernel.shmall = $shmall
 exit 0
