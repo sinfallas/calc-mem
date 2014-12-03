@@ -1,4 +1,16 @@
-commit 35e7c13ea1af54b6eb3535166629f5164b3bdfe0 (HEAD, origin/master, origin/HEAD, master)
+commit 68623f262f6cba1a5c6ca37775e82ec73db85b8a (HEAD, origin/master, origin/HEAD, master)
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Mon Dec 1 11:08:50 2014 -0430
+
+    Update calc-mem.sh
+
+commit 28ce4209e95d309d43f20911afefc6d83e101b1d
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Mon Nov 24 01:03:11 2014 -0430
+
+    * changelog
+
+commit 35e7c13ea1af54b6eb3535166629f5164b3bdfe0
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Mon Nov 24 01:02:21 2014 -0430
 
