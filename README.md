@@ -2,4 +2,5 @@ calc-mem
 ========
 
 ![Status](https://api.travis-ci.org/sinfallas/calc-mem.svg) 
-calcula algunos parametros para luego pasarlos al kernel
+
+Calculates values of shmmax and shmall and then write them into the sysctl
