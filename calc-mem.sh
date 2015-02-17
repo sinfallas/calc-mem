@@ -12,4 +12,5 @@ echo kernel.shmmax = $shmmax > /etc/sysctl.d/calc-mem.conf
 echo kernel.shmall = $shmall >> /etc/sysctl.d/calc-mem.conf
 echo kernel.shmmax = $shmmax
 echo kernel.shmall = $shmall
+echo "Finished..."
 exit 0
