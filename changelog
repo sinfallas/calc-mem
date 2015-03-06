@@ -1,4 +1,22 @@
-commit 6e7784165d578bc6b84043307489c95d0cada040 (HEAD, origin/master, origin/HEAD, master)
+commit 5d560b9ceda07cc7f2bc739b78eaa0d5c357023a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Mar 5 20:33:05 2015 -0430
+
+    * se agrega color al mensaje final
+
+commit 24d1253efb329cf41f0e3ba98f761fd6002b90dd
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Feb 17 17:28:59 2015 -0430
+
+    Update calc-mem.sh
+
+commit 2a57863ff87286d3a7c76551324d5102da6a3278
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 27 16:18:32 2015 -0430
+
+    * changelog
+
+commit 6e7784165d578bc6b84043307489c95d0cada040
 Author: Jose Perez <sinfallas@users.noreply.github.com>
 Date:   Tue Jan 27 10:59:03 2015 -0430
 
