@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ $USER != root ]]; then
-echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+echo -e "\e[00;31mERROR: must be root\e[00m"
 exit 1
 fi
 page_size=$(getconf PAGE_SIZE)
