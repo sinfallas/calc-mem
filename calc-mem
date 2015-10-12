@@ -1,7 +1,9 @@
 #!/bin/bash
+# Made by Sinfallas <sinfallas@yahoo.com>
+# Licence: GPL-2
 if [[ $USER != root ]]; then
-echo -e "\e[00;31mERROR: must be root\e[00m"
-exit 1
+	echo -e "\e[00;31mERROR: must be root\e[00m"
+	exit 1
 fi
 page_size=$(getconf PAGE_SIZE)
 phys_pages=$(getconf _PHYS_PAGES)
