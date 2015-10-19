@@ -1,14 +1,15 @@
 #!/bin/bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+LC_ALL=C
 if [[ $USER != root ]]; then
 	echo -e "\e[00;31mERROR: must be root\e[00m"
 	exit 1
 fi
 page_size=$(getconf PAGE_SIZE)
 phys_pages=$(getconf _PHYS_PAGES)
-shmall=`expr $phys_pages / 2`
-shmmax=`expr $shmall \* $page_size`
+shmall=$(( $phys_pages / 2 ))
+shmmax=$(( $shmall * $page_size ))
 mkdir -p /etc/sysctl.d
 echo "kernel.shmmax = $shmmax" > /etc/sysctl.d/calc-mem.conf
 echo "kernel.shmall = $shmall" >> /etc/sysctl.d/calc-mem.conf
