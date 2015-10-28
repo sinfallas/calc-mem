@@ -36,6 +36,7 @@ else
             echo "vm.dirty_writeback_centisecs = 500" >> /etc/sysctl.d/calc-mem.conf
         fi
 fi
+sysctl -p
 cat /etc/sysctl.d/calc-mem.conf
 echo -e "\e[00;1;92mFinished...\e[00m"
 exit 0
