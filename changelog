@@ -1,4 +1,16 @@
-commit d104d1420c5102868796a43e4086e2089de99e96 (HEAD, origin/master, origin/HEAD, master)
+commit 5b7b113cf4237607a47574f54d1832b8444b846b (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 4 19:42:25 2015 -0430
+
+    * se actualiza el readme
+
+commit 2f6ba8ee426a5750a4ced7de6acb2e85110e7db2
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 4 19:36:12 2015 -0430
+
+    * changelog
+
+commit d104d1420c5102868796a43e4086e2089de99e96
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Nov 4 19:35:52 2015 -0430
 
