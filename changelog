@@ -1,10 +1,52 @@
-commit ac2054e12d4bd1fdb0877f3556f3f46e0e9dbf11 (HEAD, origin/master, origin/HEAD, master)
+commit d104d1420c5102868796a43e4086e2089de99e96 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 4 19:35:52 2015 -0430
+
+    * se agregan otros calculos
+
+commit bf4079172052640f07e71c236a73de849c037c2a
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Wed Oct 28 12:01:51 2015 -0430
+
+    * bugfix
+
+commit 7f1ad5f160cabea9a4935625e89a4a97805c51c1
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Wed Oct 28 12:00:55 2015 -0430
+
+    * se agregan nuevas opciones
+
+commit 77f71ef90ae889eca3c3cb0ec10d39882de28525
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Oct 18 23:56:49 2015 -0430
+
+    optimizaciones
+
+commit 7c2167b9672d44b983d2072e76ab4e7aecb6deeb
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 13 21:58:19 2015 -0430
+
+    coveralls
+
+commit 94c3019403904356d5ad78afed55d5d7c462ab36
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 12 12:45:39 2015 -0430
+
+    licencia
+
+commit 00518d50e3b729809eb4000f561479c93e0bf423
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Aug 10 19:58:53 2015 -0430
+
+    * changelog
+
+commit ac2054e12d4bd1fdb0877f3556f3f46e0e9dbf11
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Aug 10 19:58:41 2015 -0430
 
     * doi
 
-commit 7e11346ae9e98418b4917ef2a09363ac7d953ad5
+commit 7e11346ae9e98418b4917ef2a09363ac7d953ad5 (tag: v1.1.1)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Aug 1 21:25:17 2015 -0430
 
