@@ -1,4 +1,16 @@
-commit 5b7b113cf4237607a47574f54d1832b8444b846b (HEAD, origin/master, origin/HEAD, master)
+commit 4015b310f6cdf7b2daf9bec80e4b7dc6fa409b71 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 22 12:48:29 2015 -0430
+
+    * se sustituyen las rutas de salida por una variable
+
+commit 770ed8195def462b797c4fdea2051c251c4cd6fc
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Nov 4 19:42:48 2015 -0430
+
+    * changelog
+
+commit 5b7b113cf4237607a47574f54d1832b8444b846b
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Nov 4 19:42:25 2015 -0430
 
