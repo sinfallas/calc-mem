@@ -6,6 +6,8 @@ if [[ $USER != root ]]; then
 	echo -e "\e[00;31mERROR: must be root\e[00m"
 	exit 1
 fi
+mkdir -p /etc/sysctl.d
+name="/etc/sysctl.d/10-calc-mem.conf"
 memor=$(grep MemTotal /proc/meminfo | awk '{print $2}')
 mb=$(( $memor * 1024 ))
 mf=$(( $mb / 1024 * 0.01 ))
@@ -16,36 +18,35 @@ page_size=$(getconf PAGE_SIZE)
 phys_pages=$(getconf _PHYS_PAGES)
 shmall=$(( $phys_pages / 2 ))
 shmmax=$(( $shmall * $page_size ))
-mkdir -p /etc/sysctl.d
-echo "kernel.shmmax = $shmmax" > /etc/sysctl.d/calc-mem.conf
-echo "kernel.shmall = $shmall" >> /etc/sysctl.d/calc-mem.conf
-echo "vm.min_free_kbytes = $mf" >> /etc/sysctl.d/calc-mem.conf
-echo "fs.file-max = $fm" >> /etc/sysctl.d/calc-mem.conf
-echo "net.ipv4.tcp_max_orphans = $mo" >> /etc/sysctl.d/calc-mem.conf
-echo "net.ipv4.tcp_max_tw_buckets = $mt" >> /etc/sysctl.d/calc-mem.conf
+echo "kernel.shmmax = $shmmax" > "$name"
+echo "kernel.shmall = $shmall" >> "$name"
+echo "vm.min_free_kbytes = $mf" >> "$name"
+echo "fs.file-max = $fm" >> "$name"
+echo "net.ipv4.tcp_max_orphans = $mo" >> "$name"
+echo "net.ipv4.tcp_max_tw_buckets = $mt" >> "$name"
 if (( $memor < 1024000 )); then
-        echo "vm.dirty_ratio = 25" >> /etc/sysctl.d/calc-mem.conf
-        echo "vm.dirty_background_ratio = 15" >> /etc/sysctl.d/calc-mem.conf
-        echo "vm.dirty_expire_centisecs = 750" >> /etc/sysctl.d/calc-mem.conf
-        echo "vm.dirty_writeback_centisecs = 125" >> /etc/sysctl.d/calc-mem.conf
+        echo "vm.dirty_ratio = 25" >> "$name"
+        echo "vm.dirty_background_ratio = 15" >> "$name"
+        echo "vm.dirty_expire_centisecs = 750" >> "$name"
+        echo "vm.dirty_writeback_centisecs = 125" >> "$name"
 else
         if (( $memor > 4096000 )); then
-            echo "vm.swappiness = 10" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.vfs_cache_pressure = 50" >> /etc/sysctl.d/calc-mem.conf
+            echo "vm.swappiness = 10" >> "$name"
+            echo "vm.vfs_cache_pressure = 50" >> "$name"
         fi
         if (( $memor < 8192000 )); then
-            echo "vm.dirty_ratio = 12" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.dirty_background_ratio = 10" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.dirty_expire_centisecs = 1500" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.dirty_writeback_centisecs = 250" >> /etc/sysctl.d/calc-mem.conf
+            echo "vm.dirty_ratio = 12" >> "$name"
+            echo "vm.dirty_background_ratio = 10" >> "$name"
+            echo "vm.dirty_expire_centisecs = 1500" >> "$name"
+            echo "vm.dirty_writeback_centisecs = 250" >> "$name"
         else
-            echo "vm.dirty_ratio = 3" >> /etc/sysctl.conf
-            echo "vm.dirty_background_ratio = 5" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.dirty_expire_centisecs = 3000" >> /etc/sysctl.d/calc-mem.conf
-            echo "vm.dirty_writeback_centisecs = 500" >> /etc/sysctl.d/calc-mem.conf
+            echo "vm.dirty_ratio = 3" >> "$name"
+            echo "vm.dirty_background_ratio = 5" >> "$name"
+            echo "vm.dirty_expire_centisecs = 3000" >> "$name"
+            echo "vm.dirty_writeback_centisecs = 500" >> "$name"
         fi
 fi
 sysctl -p
-cat /etc/sysctl.d/calc-mem.conf
+cat "$name"
 echo -e "\e[00;1;92mFinished...\e[00m"
 exit 0
