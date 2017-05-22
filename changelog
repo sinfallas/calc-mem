@@ -1,4 +1,22 @@
-commit db8f5b329fb813f6ec94777199de58349eda7d3d (HEAD, origin/master, origin/HEAD, master)
+commit 2634cb01ef20b9d8802a46b8fcbe64c22b94e093 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon May 22 12:44:09 2017 -0400
+
+    * readme
+
+commit d00a07a3013bbb20d2da6bc8e5bc1a98dc2575aa
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon May 22 12:40:46 2017 -0400
+
+    * readme
+
+commit 8a0a52c55ccd03f9e5338d303ec35f4d1f258c4a
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 10:46:28 2016 -0430
+
+    * changelog
+
+commit db8f5b329fb813f6ec94777199de58349eda7d3d
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Apr 9 10:46:18 2016 -0430
 
