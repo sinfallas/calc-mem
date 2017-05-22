@@ -5,4 +5,4 @@ calc-mem
 [![DOI](https://zenodo.org/badge/4102/sinfallas/calc-mem.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/calc-mem)
 [![Build Status](https://travis-ci.org/sinfallas/calc-mem.svg?branch=master)](https://travis-ci.org/sinfallas/calc-mem)
 
-Calculates several values and write them into the sysctl file
+Calculates several values and write them into the sysctl file.
