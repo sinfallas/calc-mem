@@ -1,4 +1,16 @@
-commit 2634cb01ef20b9d8802a46b8fcbe64c22b94e093 (HEAD, origin/master, origin/HEAD, master)
+commit cfa2e5641303aa82640002428f4f13f7be37deb9 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Mar 15 20:54:01 2018 -0400
+
+    * se elimina exit 0
+
+commit 1bde9d14663e3313e6c63ffb5ca4381b201fb51e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon May 22 12:44:59 2017 -0400
+
+    * changelog
+
+commit 2634cb01ef20b9d8802a46b8fcbe64c22b94e093
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon May 22 12:44:09 2017 -0400
 
