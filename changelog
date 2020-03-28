@@ -1,4 +1,16 @@
-commit 2ccb03c5019241d5a04b1ab118087361056fa2af (HEAD -> master, origin/master, origin/HEAD)
+commit 1ac04114d1f7e7d224f1fb7a3dde7ae652ee2fb4 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Mar 28 11:38:07 2020 -0400
+
+    * bugfix
+
+commit 098a00fe5b6dbf409f682f1d2ba57bfea08f5bdd
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Sep 30 13:28:14 2018 -0400
+
+    * changelog
+
+commit 2ccb03c5019241d5a04b1ab118087361056fa2af
 Author: jose perez <sinfallas@gmail.com>
 Date:   Thu Mar 15 20:54:32 2018 -0400
 
