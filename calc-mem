@@ -49,7 +49,7 @@ else
             echo "vm.dirty_writeback_centisecs = 500" >> "$name"
         fi
 fi
-sysctl -p
+sysctl --system
 cat "$name"
 echo -e "\e[00;1;92mFinished...\e[00m"
 rm -f /run/$(basename $0).pid
