@@ -1,4 +1,16 @@
-commit dc09e3b89c0fce2ccfac38d9567407a3cf908505 (HEAD -> master, origin/master, origin/HEAD)
+commit 6b47b6764293716c5f3f1bb8d6f5be8ba040a666 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 24 19:37:30 2020 -0400
+
+    * se elimina el clear
+
+commit 461bdd5c8d10f09a90f3859a8b3bb1d3b4f743a9
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun May 24 14:20:55 2020 -0400
+
+    * changelog
+
+commit dc09e3b89c0fce2ccfac38d9567407a3cf908505
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun May 24 14:20:45 2020 -0400
 
