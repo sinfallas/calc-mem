@@ -56,6 +56,5 @@ else
         fi
 fi
 sysctl --system
-clear
 cat "$name"
 echo -e "\e[00;1;92mFinished...\e[00m"
