@@ -1,4 +1,16 @@
-commit 6b47b6764293716c5f3f1bb8d6f5be8ba040a666 (HEAD -> master, origin/master, origin/HEAD)
+commit 142cf660758c7478f3068cb9d2a8a467bc1fb494 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jun 28 21:11:23 2020 -0400
+
+    * se comenta la linea cat
+
+commit 3114ca630d9b7aeb7c1b19e9985194065ec81153
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Jun 24 19:37:44 2020 -0400
+
+    * changelog
+
+commit 6b47b6764293716c5f3f1bb8d6f5be8ba040a666
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Jun 24 19:37:30 2020 -0400
 
