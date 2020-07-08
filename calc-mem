@@ -55,6 +55,6 @@ else
             echo "vm.dirty_writeback_centisecs = 500" >> "$name"
         fi
 fi
-sysctl --system
+sysctl --system > /dev/null
 #cat "$name"
 echo -e "\e[00;1;92mFinished...\e[00m"
