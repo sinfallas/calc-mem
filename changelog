@@ -1,4 +1,16 @@
-commit 83febcbfe5bb45e2d53a0138d570f24f182d57ec (HEAD -> master, origin/master, origin/HEAD)
+commit ba210765fb563ed4b0576bc86589497089d92631 (HEAD -> master, origin/master, origin/HEAD)
+Author: config <Palencia>
+Date:   Tue Jul 7 22:03:49 2020 -0400
+
+    * oculta salida
+
+commit 21b5b6e60654cd2a37568721617a2c20f02a8507
+Author: config <Palencia>
+Date:   Mon Jul 6 22:05:40 2020 -0400
+
+    * changelog
+
+commit 83febcbfe5bb45e2d53a0138d570f24f182d57ec
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Jun 28 21:11:42 2020 -0400
 
