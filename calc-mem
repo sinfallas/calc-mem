@@ -19,7 +19,7 @@ mkdir -p /etc/sysctl.d
 name="/etc/sysctl.d/10-calc-mem.conf"
 memor=$(grep MemTotal /proc/meminfo | awk '{print $2}')
 mb=$(( $memor * 1024 ))
-mf=$(( $memor * 0,3 ))
+mf=$(( $memor * 3/100 ))
 fm=$(( $mb / 4194304 * 256 ))
 mo=$(( $mb * 0,10 / 65536 ))
 mt=$(( $fm * 2 ))
