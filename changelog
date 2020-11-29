@@ -1,4 +1,16 @@
-commit 3e6f8dfda08ee72162c9f9fbe12f54cd53bd46a2 (HEAD -> master, origin/master, origin/HEAD)
+commit ff2b1252ed90b9025622e3055260cfe0d4f28020 (HEAD -> master, origin/master, origin/HEAD)
+Author: config <Palencia>
+Date:   Sun Nov 29 08:44:09 2020 -0400
+
+    * bugfix
+
+commit ca2c50ef2bbcec744db21776ee8aa6fd4b35e265
+Author: config <Palencia>
+Date:   Sun Nov 29 08:23:53 2020 -0400
+
+    * changelog
+
+commit 3e6f8dfda08ee72162c9f9fbe12f54cd53bd46a2
 Author: config <Palencia>
 Date:   Sun Nov 29 08:23:41 2020 -0400
 
