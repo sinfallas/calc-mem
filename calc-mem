@@ -31,7 +31,7 @@ echo "kernel.shmmax = $shmmax" > "$name"
 echo "kernel.shmall = $shmall" >> "$name"
 echo "vm.min_free_kbytes = $mf" >> "$name"
 echo "fs.file-max = $fm" >> "$name"
-echo "net.ipv4.tcp_max_orphans = $mo" >> "$name"
+#echo "net.ipv4.tcp_max_orphans = $mo" >> "$name"
 echo "net.ipv4.tcp_max_tw_buckets = $mt" >> "$name"
 if (( $memor < 1024000 )); then
         echo "vm.dirty_ratio = 25" >> "$name"
